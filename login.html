@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/stylesLogin.css">
+	<script type="text/javascript" src="js/mainLogin.js"></script>
+</head>
+<body>
+	<section id="container">
+		<section id="login">
+			<header>
+				<h1>Aula Virtual</h1>
+				<!-- <img src="img/libros.png"> -->
+			</header>
+			<div class="formLogin">
+				<form action="#" name="formulario" method="post"> 
+					<input id="email" type="text" value="email" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User name';}">
+					<input id="password" type="password" value="Password" name="password" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'password';}">
+					<div class="remember">
+						<span class="checkbox1">
+			             	<label class="checkbox"><input type="checkbox" name="" checked=""><i> </i>Remember me</label>
+						</span>
+						<div class="forgot">
+						 	<h6><a href="#">Olvido la contraseña?</a></h6>
+						</div>
+						<div class="clear"> </div>
+					</div>
+					<input id="btnLogin" type="submit" value="Login">
+					<input id="btnRegister" type="button" value="Nuevo Usuario">
+				</form>
+			</div>
+		</section>
+		<section id="forgotPass">
+			<header>
+				<h1>Aula Virtual</h1>
+				<h2>-Forgot Password</h2>
+			</header>
+			<form action="#" name="formForgotPass" method="post">
+				<input id="email" type="text" value="email" name="name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'User name';}">
+				<input id="btnSend" type="submit" value="Send">
+			</form>
+		</section>
+	</section>
+
+</body>
+</html>

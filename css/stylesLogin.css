@@ -1,0 +1,139 @@
+/*imagen de fondo*/
+* {
+	margin: 0;
+	padding: 0;
+}
+#container {
+	background-image: url(../img/fondoAzul.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    width: 100%;    
+}
+
+#login, #forgotPass {
+	
+	width: 40%;
+	height: 600px;
+	margin: 0 auto;
+	font-family: Arial, Helvetica, sans-serif;
+/*	border: 3px solid;
+	border-color: #fff;
+	border-radius: 50px;
+	padding: 20px;] */
+}
+
+h1 {
+	 font-size: 63px;
+
+	 padding: 50px;
+	 text-align: center;
+	 color: #fff;
+}
+
+
+/*img {
+    width: 200px;
+    margin: 30px;
+    background-color: red;
+}*/
+h2 {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+/*.formLogin {
+
+}
+*/
+ input[type="text"] {
+    background: url(../img/m.png)no-repeat 0px 5px;
+    outline: none;
+    font-size: 15px;
+    font-weight: 400;
+    color: #fff;
+    padding: 12px 13px 20px 44px;
+    border:none;
+    border-bottom:1px solid #fff;
+    width: 87%;
+    margin: 0 0 20px;
+    display: inline-block;
+}
+.formLogin {
+    background:rgba(0, 0, 0, 0.66);
+    padding: 3em 2em 2em;
+}
+
+.formLogin input[type="password"]{
+   background: url(../img/l.png)no-repeat 0px 5px;
+   outline: none;
+   font-size: 15px;
+   font-weight: 400;
+   color: #fff;
+   border:none;
+   border-bottom:1px solid #fff;
+   padding: 12px 13px 20px 44px;
+   width: 87%;
+   margin: 0 0 20px;
+   display: inline-block;
+}
+
+ input[type="submit"], input[type="button"] {
+    background: #ff3366;
+    color: #FFF;
+    font-size: 26px;
+    padding: 0.3em 1.2em;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.remember {
+    margin: 20px 0;
+}
+input[type="submit"]:hover {
+    background: #b5183f;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+}
+
+#btnRegister {
+    margin: 10px 0;
+}
+.forgot {
+    float: right;
+}
+.forgot h6 {
+    font-size: 1em;
+    margin-top: 0.2em;
+}
+.forgot h6 a{
+    color:#efe8e8;
+}
+.forgot h6 a:hover{
+    color:#ff3366;
+}
+
+#forgotPass {
+    height: 400px;
+    display: none;
+    background:rgba(0, 0, 0, 0.66);
+    padding: 3em 2em 2em;
+}
+

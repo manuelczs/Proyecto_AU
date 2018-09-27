@@ -1,0 +1,23 @@
+#container {
+	background-image: url(../img/fondoAzul.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+
+    width: 100%;    
+}
+
+.formNewUser {
+	background:rgba(0, 0, 0, 0.66);
+    padding: 3em 2em 2em;
+    width: 70%;
+    margin: 20px auto;
+    height: 100vh;
+}
+
+label, h1 {
+	color: #fff;
+}
