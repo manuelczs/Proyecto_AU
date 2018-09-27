@@ -1,8 +1,11 @@
 window.onload = function () {
 	var btnNewUser = document.querySelector("#btnNewUser");
+	// btnNewUser.disabled = true;
 
-	
-	btnNewUser.addEventListener("click", function (e) {
+	// if (document.querySelector("#acepto").checked) {
+	// 	btnNewUser.disabled = true;
+	// 	btnNewUser.disabled= false;
+		btnNewUser.addEventListener("click", function (e) {
 		e.preventDefault();
 		var firstName = document.querySelector("#firstName").value;
 		// alert(firstName + "este es el nombre");
@@ -27,16 +30,16 @@ window.onload = function () {
 		// window.location="login.html";
 
 		// alert(firstName + lastName + email + pass + address);
-	});
+		});
 
-	var btnBack = document.querySelector("#btnBack");
-	btnBack.addEventListener("click", function () {
+		var btnBack = document.querySelector("#btnBack");
+		btnBack.addEventListener("click", function () {
 		window.location.assign("login.html");
-	});
+		});
 
 	
 
-	var nuevoUsuario = function (firstName, lastName, email, pass, address, sexo) {
+		var nuevoUsuario = function (firstName, lastName, email, pass, address, sexo) {
 		var newUser = new Object ();
 		newUser.nombre = firstName;
 		newUser.apellido = lastName;
@@ -47,9 +50,13 @@ window.onload = function () {
 
 		// nuevoUsuario();
 		console.log(newUser);
-
+		}
+	
 		
-	}
+	// } 
+	
+
+	
 
 	
 }
